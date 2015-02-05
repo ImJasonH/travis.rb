@@ -167,6 +167,7 @@ Gem::Specification.new do |s|
     "lib/travis/cli/restart.rb",
     "lib/travis/cli/settings.rb",
     "lib/travis/cli/setup.rb",
+    "lib/travis/cli/setup/appengine.rb",
     "lib/travis/cli/setup/appfog.rb",
     "lib/travis/cli/setup/artifacts.rb",
     "lib/travis/cli/setup/biicode.rb",

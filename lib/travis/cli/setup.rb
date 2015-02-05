@@ -3,6 +3,7 @@ require 'travis/cli'
 module Travis
   module CLI
     class Setup < RepoCommand
+      autoload :AppEngine,        'travis/cli/setup/appengine'
       autoload :Appfog,           'travis/cli/setup/appfog'
       autoload :Artifacts,        'travis/cli/setup/artifacts'
       autoload :Biicode,          'travis/cli/setup/biicode'
