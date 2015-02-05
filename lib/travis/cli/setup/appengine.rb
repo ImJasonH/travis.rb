@@ -9,7 +9,7 @@ module Travis
         def run
 	  deploy 'appengine' do |config|
             config['oauth_token'] = ask("OAuth token").to_s
-	    encrypt(config, 'oauth_token')
+            encrypt(config, 'oauth_token')
           end
         end
       end
